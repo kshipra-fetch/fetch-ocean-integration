@@ -13,9 +13,8 @@ from uagents_core.contrib.protocols.chat import (
     chat_protocol_spec,
 )
 
-# Agent configuration
-AGENT_SEED = os.getenv("SIMPLE_AGENT_SEED", "simple-hi-agent-seed-phras-aduui")
-AGENT_NAME = os.getenv("SIMPLE_AGENT_NAME", "Simple Hi Agent")
+
+AGENT_NAME = os.getenv("SIMPLE_AGENT_NAME", "Demographics Agent")
 PORT = 8005  # Different port to avoid conflicts
 
 # Compute service configuration
@@ -28,7 +27,6 @@ ASI_ONE_API_URL = "https://api.asi1.ai/v1/chat/completions"
 # Create the agent
 agent = Agent(
     name=AGENT_NAME,
-    seed=AGENT_SEED,
     port=PORT,
     mailbox=True,
 )
