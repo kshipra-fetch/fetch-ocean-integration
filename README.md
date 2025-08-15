@@ -255,7 +255,7 @@ This project serves as a template for integrating Ocean Protocol with uAgents. T
 
 3. **Test Agents with ASI:One**:
    Go to https://asi1.ai, you can copy your agent's address from the agents profile in the previous step and ask a query using @agent-address
-   ![ASI:One platform integration](images/asi1.png)
+   ![ASI:One platform integration](images/asi1-sample.png)
 
  **Sample queries**:
    - "How many people are in each age group?"
@@ -268,7 +268,7 @@ This project serves as a template for integrating Ocean Protocol with uAgents. T
    - Monitor the uAgent logs for polling and response generation
     ![Agent Logs](images/agent-logs.png)
    - Check the final AI-generated response
-     ![ASI:One](images/asi.png)
+     ![ASI:One](images/asi1-sample.png)
 
 ## �� Example Workflow
 
