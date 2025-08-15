@@ -220,6 +220,7 @@ This project serves as a template for integrating Ocean Protocol with uAgents. T
 1. **Start the Ocean Compute Service**:
    ```bash
    cd free-c2d-app
+   docker pull python@sha256:372f3cfc1738ed91b64c7d36a7a02d5c3468ec1f60c906872c3fd346dda8cbbb
    npx ts-node compute.ts
    ```
 
