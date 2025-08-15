@@ -251,15 +251,24 @@ This project serves as a template for integrating Ocean Protocol with uAgents. T
 2. **Access the agent**:
    Visit the URL shown in the uAgent console (e.g., `https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8005&address=agent1qd674kgs3987yh84a309c0lzkuzjujfufwxslpzygcnwnycjs0ppuauektt`) and click on `Connect` and select the `Mailbox` option, go to the `Agent Profile` and click on `Chat with Agent` to start Testing.
 
-3. **Test queries**:
+      ![Chat interface showing agent interaction](images/chat-ui.png)
+
+3. **Test Agents with ASI:One**:
+   Go to https://asi1.ai, you can copy your agent's address from the agents profile in the previous step and ask a query using @agent-address
+   ![ASI:One platform integration](images/asi1.png)
+
+ **Sample queries**:
    - "How many people are in each age group?"
    - "What percentage of the population are children?"
    - "Show me the demographics breakdown"
 
-4. **Monitor the process**:
+ **Monitor the process**:
    - Watch the Ocean Compute Service logs for job progress
+     ![Ocean Logs](images/ocean-logs.png)
    - Monitor the uAgent logs for polling and response generation
+    ![Agent Logs](images/agent-logs.png)
    - Check the final AI-generated response
+     ![ASI:One](images/asi.png)
 
 ## �� Example Workflow
 
